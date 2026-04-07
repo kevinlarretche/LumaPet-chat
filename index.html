@@ -341,7 +341,7 @@ async function sendMessage() {
   showTyping();
   
   try {
-    const res = await fetch('https://n8n.srv1208833.hstgr.cloud/webhook/squ-chat', {
+    const res = await fetch('https://n8n.srv1208833.hstgr.cloud/webhook/LumaPet-chat', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ message: text, productId, chatId })
